@@ -1,0 +1,6 @@
+# netlify.toml
+[build]
+  command = "echo 'helllooooooooooooo from netlify toml'"
+
+[[plugins]]
+package = "./plugins/tester-plugin"

@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'hello from the package.json'"
+  },
+  "dependencies": {
+    "dotenv": "8.2.0"
+  }
+}
