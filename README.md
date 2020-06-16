@@ -11,14 +11,14 @@ git clone https://github.com/mknudsen01/netlify-build-from-api.git
 ### Install dependencies
 
 ```js
-yarn;
+yarn
 ```
 
 ### Add your Netlify Access Token to a `.env` file
 
 ```ruby
 # .env
-NETLIFY_ACCESS_TOKEN = yourToken;
+NETLIFY_ACCESS_TOKEN = yourToken
 ```
 
 ### Start the server
