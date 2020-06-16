@@ -33,11 +33,14 @@ yarn start
 curl -X POST http://localhost:7777/api/deploy
 ```
 
-### Expected, if builds are run even on manual deploys:
+---
+
+#### Expected, if builds are run for manual deploys:
 
 Netlify would show build logs from running the build commands I have, both in the plugin's `prebuild` handler and the package.json's `build` command.
 
-### Actual:
+
+#### Actual:
 
 Netlify build logs show nothing regarding running any build. The build logs only show:
 
