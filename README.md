@@ -49,3 +49,7 @@ Netlify build logs show nothing regarding running any build. The build logs only
 2:05:44 PM: Post processing done
 2:05:44 PM: Site is live
 ```
+
+
+UPDATE: 
+This was part of a service request to Netlify. I've been informed that the build runs only for repos that are connected with CI. API-started deploys will _not_ run the build pipeline.
